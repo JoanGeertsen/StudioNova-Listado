@@ -1,0 +1,19 @@
+.btn-anim {
+  transition: transform 0.2s cubic-bezier(0.4,0,0.2,1), box-shadow 0.2s cubic-bezier(0.4,0,0.2,1), background 0.2s, color 0.2s;
+}
+.btn-anim:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 24px -8px #ff5f2e55;
+  background: #fff;
+  color: #ff5f2e;
+}
+.btn-anim:active {
+  transform: scale(0.98);
+}
+.img-zoom img {
+  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), box-shadow 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+.img-zoom:hover img {
+  transform: scale(1.08) translateY(-6px);
+  box-shadow: 0 8px 32px -8px #ff5f2e33;
+}
