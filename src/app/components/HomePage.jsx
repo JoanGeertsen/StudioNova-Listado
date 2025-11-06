@@ -92,16 +92,16 @@ export default function Homepage() {
         <div className="flex justify-center items-stretch gap-6 flex-wrap mt-12">
           {/* Imágenes verticales (visible en PC) */}
           <div className="hidden md:block w-[22%] rounded-xl overflow-hidden transition-transform hover:scale-103 img-zoom">
-            <Image src="/img/vertical1v3.png" alt="Imagen vertical 1" width={300} height={500} className="w-full h-full object-cover" />
+            <Image src="/img/Vertical1v3.png" alt="Imagen vertical 1" width={300} height={500} className="w-full h-full object-cover" />
           </div>
           <div className="hidden md:block w-[22%] rounded-xl overflow-hidden transition-transform hover:scale-103 img-zoom">
-            <Image src="/img/vertical2.png" alt="Imagen vertical 2" width={300} height={500} className="w-full h-full object-cover" />
+            <Image src="/img/Vertical2.png" alt="Imagen vertical 2" width={300} height={500} className="w-full h-full object-cover" />
           </div>
           <div className="hidden md:block w-[22%] rounded-xl overflow-hidden transition-transform hover:scale-103 img-zoom">
-            <Image src="/img/vertical3.png" alt="Imagen vertical 3" width={300} height={500} className="w-full h-full object-cover" />
+            <Image src="/img/Vertical3.png" alt="Imagen vertical 3" width={300} height={500} className="w-full h-full object-cover" />
           </div>
           <div className="hidden md:block w-[22%] rounded-xl overflow-hidden transition-transform hover:scale-103 img-zoom">
-            <Image src="/img/vertical4.png" alt="Imagen vertical 4" width={300} height={500} className="w-full h-full object-cover" />
+            <Image src="/img/Vertical4.png" alt="Imagen vertical 4" width={300} height={500} className="w-full h-full object-cover" />
           </div>
 
           {/* Imágenes horizontales (Visible en cel)*/}
@@ -142,7 +142,7 @@ export default function Homepage() {
         
         {/* Módulo 2 - Imagen */}
         <div className="rounded-xl overflow-hidden md:col-span-1">
-          <Image src="/img/modulo2.webp" alt="Imagen 1" width={400} height={400} className="w-full h-full object-cover rounded-xl" />
+          <Image src="/img/Modulo2.webp" alt="Imagen 1" width={400} height={400} className="w-full h-full object-cover rounded-xl" />
         </div>
         
         {/* Módulo 3 - Imagen */}

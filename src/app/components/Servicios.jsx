@@ -74,8 +74,8 @@ const Servicios = () => {
         {/* Sección contenido principal */}
         <section ref={contenidoRef} className="fadein-section flex flex-wrap py-12 px-8 gap-8 items-center justify-center">
           <div className="flex-1 min-w-[300px] max-w-[500px]">
-            <img 
-              src="/img/servicios.jpg" 
+            <img
+              src="/img/Servicios.jpg"
               alt="Nuestros servicios" 
               className="w-full rounded-xl shadow-lg"
             />
@@ -499,8 +499,8 @@ const Servicios = () => {
 <section ref={ayudaRef} className="fadein-section py-16 px-4 sm:px-8 max-w-6xl mx-auto">
   <div className="flex flex-col md:flex-row gap-8 items-center">
     <div className="flex-1">
-      <img 
-        src="/img/box.png" 
+        <img
+          src="/img/Box.png"
         alt="Cómo ayudamos" 
         className="w-full h-auto rounded-xl shadow-sm object-cover"
       />
